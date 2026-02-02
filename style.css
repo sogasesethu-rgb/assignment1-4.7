@@ -1,0 +1,44 @@
+
+body {
+    background-color: #EFF6FF;
+    margin: 2cm;
+    height: 100%;
+}
+ 
+div {
+    background-color: white;
+
+}
+
+.main {
+    float: left;
+    margin-right: 60px ;
+    background-color: white;
+    height: 800px;
+}
+
+.content {
+    padding: 25px;
+    height: 750px;
+    
+}
+
+.buttons {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    gap: 40px;
+}
+
+.facebook {
+    background-color:#255A9B;
+    width: 250px;
+    height: 40px;    
+}
+
+.linkedin {
+    background-color: #0076B6; 
+    width: 250px;
+    height: 40px;
+
+}

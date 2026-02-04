@@ -7,39 +7,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <div class="main">
-     <img src="Images/bg.jpg" alt="blog image" width="600px" height="800px">
+  <div class="main-container">
+    <div class="image">
+      <img src="/images/bg.jpg" alt="main-img" class="main-img">
+  
     </div>
-    <div class="content">
+
+    
+     <div class="content">
      <h2> Get iinto it today</h2>
-     <br>
      <p>There is no charge or obligation.</p>
-    <br>
+    
     <div class="buttons">
       <button class="facebook button">
-       <img src="./images/facebook.svg" alt="facebook logo" width="40px" height="20px">
+       <img src="./images/facebook.svg" alt="facebook logo" width="20px" height="20px">
        Register with facebook
       </button>
       <button class="linkedin">
-        <img src="./images/linkedin.svg" alt="linkedin logo" width="40px" height="20px">
-       Register with linkedin
+        <img src="./images/linkedin.svg" alt="linkedin logo" width="20px" height="20px">
+        Register with linkedin
       </button>
-    </div>
-       <br>
-  
-      <p>-----or------ </p>
-      <br>
-      <div class="form">
-       <input type="email" value="">
-       <label>Email</label>
-       <input type="tel" value="">
-       <label>phone</label>
       </div>
-      <br>
+
+  
+    <div class="or">
+      <span>OR</span>
+    </div>
+  
+       <form>
+      <div class="form">
+       <input type="email" placeholder="email">
+       <input type="tel" placeholder="phone">
+      </div>
+       <br>
       <h3>What type of investor are you?</h3>
-      <br>
+    
       <p>select the type of investor you are below</p>
+       <br>
       <div class="radio">
        <input type="radio" value="individual">
        <label>individual</label>
@@ -49,11 +53,17 @@
        <label>IRA</label>
        <input type="radio" value="Trust">
        <label>Trust</label>
+      
+      </div>
+      <br>
+      <div class=" Terms">
+        <input type="checkbox" id="Terms">
+        <label for="Terms">I agree to the terms and receiving notifications from iinto View full terms</label>
       </div>
        <br>
-       <button> create account</button>
+       <button type="submit"> Create Account</button>
        </div>
-    </div>
+      </form> 
   </div>
 </body>
 </html>
